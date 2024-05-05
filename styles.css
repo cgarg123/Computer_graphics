@@ -1,0 +1,22 @@
+body {
+    background-image: url('earth.jpg'); /* Add the URL of your space image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+}
+
+#instruction {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 22px; /* Increased font size */
+    font-weight: bold; /* Bold text */
+}
+
